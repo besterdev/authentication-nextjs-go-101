@@ -1,0 +1,6 @@
+.env
+pgdata/
+/server
+*.exe
+*.test
+*.out

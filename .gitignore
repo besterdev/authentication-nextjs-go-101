@@ -1,0 +1,35 @@
+# OS
+.DS_Store
+
+# Backend
+back-end/.env
+back-end/pgdata/
+back-end/server
+back-end/*.exe
+back-end/*.test
+back-end/*.out
+
+# Frontend
+front-end/node_modules/
+front-end/.next/
+front-end/out/
+front-end/build/
+front-end/.pnp
+front-end/.pnp.*
+front-end/.yarn/*
+!front-end/.yarn/patches
+!front-end/.yarn/plugins
+!front-end/.yarn/releases
+!front-end/.yarn/versions
+front-end/coverage/
+front-end/.vercel
+front-end/*.pem
+front-end/npm-debug.log*
+front-end/yarn-debug.log*
+front-end/yarn-error.log*
+front-end/.pnpm-debug.log*
+front-end/*.tsbuildinfo
+front-end/next-env.d.ts
+front-end/.env.local
+front-end/.env*.local
+!front-end/.env.local.example
